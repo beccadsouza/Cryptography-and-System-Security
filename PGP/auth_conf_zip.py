@@ -4,6 +4,8 @@ from Crypto.Cipher import DES
 from Crypto import Random
 from math import ceil
 
+# Created by Rebecca Dsouza on 30-3-19
+
 def compress(data):
 	encoder,entry = [],[]
 	while len(data) != 0:
@@ -46,6 +48,7 @@ message = message.ljust(8*ceil(len(message)/8))
 enc_data = des.encrypt(message)
 conf_length = len(enc_key[0])
 enc_data = enc_key[0] + enc_data
+# TRANSPORTATION OF MESSAGE
 des = DES.new(key.decrypt(enc_data[:conf_length]),DES.MODE_ECB)
 message = des.decrypt(enc_data[conf_length:]).decode('utf-8').strip(" ")
 # END CONFIDENTIALITY

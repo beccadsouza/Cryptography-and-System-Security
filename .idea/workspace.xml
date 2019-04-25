@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38d75e8b-4872-48e3-8b03-7aed32010fcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/beckss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/beckss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blowfish.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blowfish_keys.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diffie_hellman.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/md5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/md5_constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PGP/auth_conf_zip.py" beforeDir="false" afterPath="$PROJECT_DIR$/PGP/auth_conf_zip.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PGP/auth_conf_zip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="418">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -103,8 +98,8 @@
         <option value="$PROJECT_DIR$/PGP/authentication.py" />
         <option value="$PROJECT_DIR$/PGP/confidentiality.py" />
         <option value="$PROJECT_DIR$/PGP/auth_conf.py" />
-        <option value="$PROJECT_DIR$/PGP/auth_conf_zip.py" />
         <option value="$PROJECT_DIR$/PGP/zip.py" />
+        <option value="$PROJECT_DIR$/PGP/auth_conf_zip.py" />
       </list>
     </option>
   </component>
@@ -120,30 +115,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="MD5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="PGP" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -191,6 +163,9 @@
       <module name="CSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PGP" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -210,6 +185,9 @@
       <module name="CSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PGP" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -229,6 +207,9 @@
       <module name="CSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PGP" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -248,6 +229,9 @@
       <module name="CSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PGP" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -267,6 +251,9 @@
       <module name="CSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PGP" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -326,17 +313,28 @@
       <workItem from="1552743830913" duration="723000" />
       <workItem from="1553750648504" duration="790000" />
       <workItem from="1553768792209" duration="6404000" />
-      <workItem from="1553842874676" duration="15131000" />
+      <workItem from="1553842874676" duration="15670000" />
+      <workItem from="1553964592482" duration="4365000" />
+      <workItem from="1554185377515" duration="164000" />
     </task>
+    <task id="LOCAL-00001" summary="PGP confidentiality, authentication and conf+auth">
+      <created>1553936552106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553936552106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66613000" />
+    <option name="totallyTimeSpent" value="71681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="42" width="1920" height="1038" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17811158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,7 +344,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32996634" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32881355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -437,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PGP/auth_conf_zip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="418">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
